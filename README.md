@@ -30,6 +30,9 @@ Horner Rule
 
 Horner’s rule is an algorithm for evaluating a polynomial of the form cn​x^n+c(n−1)​x^(n−1)+⋯+c1​x+c0​at a given value of x , where cn​,cn−1​,…,c0​are coefficients. The algorithm is based on the observation that the polynomial can be rewritten as ((⋯((cn​x+cn−1​)x+cn−2​)x+⋯)x+c1​)x+c0​, which reduces the number of multiplications and additions needed to compute the values.
 
+
+![image](https://github.com/geeky-me/ADA/assets/158138672/86645d0d-00fe-49db-9aa3-258d3eea55db)
+
 TIME COMPLEXITY = O(n)
 
 Truth table for n numbers
@@ -47,6 +50,8 @@ TIME COMPLEXITY = O(2^n)
 
 LINEAR SEARCH
 
+![image](https://github.com/geeky-me/ADA/assets/158138672/88e40bcd-813a-49eb-a5e6-101138bcc611)
+
 In this algorithm,we search whether the element is present in the array or not.We do so by comparing each of the element of the array with the key element.If the element is present we return the index of the element, else if the element is not present we return -1.
 
 TIME COMPLEXITY = O(n)
@@ -55,11 +60,17 @@ BINARY SEARCH
 
 Binary Search is a search algorithm that is faster than the linear search algorithm. Binary Search is used to search the position of the target element in a sorted array by repeatedly dividing the search space in half. Binary search eliminates half portion of the array with each comparison.
 
+Best Case Complexity:
+
+![image](https://github.com/geeky-me/ADA/assets/158138672/b3e10404-9c38-4a5e-b72b-b2c543103fa3)
+
 TIME COMPLEXITY = O(logn)
 
 POWER OF A NUMBER
 
 In this algorithm we multiply the number with the recursive call and decrease the power by 1 and when power becomes zero,we return 1.
+
+![image](https://github.com/geeky-me/ADA/assets/158138672/f013da88-5f5d-4938-806c-8a132e2c83c3)
 
 TIME COMPLEXITY = O(n)
 
